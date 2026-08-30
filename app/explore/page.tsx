@@ -56,7 +56,7 @@ export default function ExplorePage() {
     <header className="absolute left-3 right-3 top-3 z-40 flex items-center gap-3 md:left-6 md:right-6 md:top-5">
       <a href="/" className="glass-panel-sm flex shrink-0 items-center gap-2 px-4 py-3 font-mono text-xs font-bold tracking-[.2em]"><span className="size-2 rounded-full bg-primary shadow-[0_0_12px_#ff6a00]" /> URBANSCOPE</a>
       <div className="glass-panel-sm flex min-w-0 flex-1 items-center gap-3 px-4 py-2.5 md:mx-auto md:max-w-2xl"><Search className="size-4 shrink-0 text-primary" /><input aria-label="Search map" className="min-w-0 flex-1 bg-transparent text-sm outline-none placeholder:text-white/45" placeholder="Search location, TP scheme, survey number..." /><kbd className="hidden rounded border border-white/10 px-2 py-1 font-mono text-[10px] text-white/45 sm:block">⌘ K</kbd></div>
-      <div className="hidden items-center gap-2 md:flex"><IconButton label="Saved places"><Star /></IconButton><IconButton label="Notifications"><Bell /></IconButton><button aria-label="Open profile" className="flex size-10 items-center justify-center rounded-full border border-secondary bg-secondary/20 font-mono text-xs text-secondary">AR</button></div>
+      <div className="hidden items-center gap-2 md:flex"><IconButton label="Saved places"><Star /></IconButton><IconButton label="Notifications"><Bell /></IconButton><a href="/login" aria-label="Open profile" className="flex size-10 items-center justify-center rounded-full border border-secondary bg-secondary/20 font-mono text-xs text-secondary">AR</a></div>
       <button aria-label="Open menu" className="glass-panel-sm flex size-11 shrink-0 items-center justify-center md:hidden"><Menu /></button>
     </header>
 
